@@ -54,6 +54,23 @@ img.dimImage{
     justify-content: center;
     align-items: center;
 }
+.precio{
+    background-color: var(--naranja);
+    color: white;
+    border-color: black;
+    font-size: 2rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
+.precio:hover{
+    pointer-events: none;
+    cursor: none;
+}
+.textoMenu{
+    font-size: 1.3rem;
+    color: white;
+}
 /*.imagenesCarrusel{
     height: 50em;
 }*/
